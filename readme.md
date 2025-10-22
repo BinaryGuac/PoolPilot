@@ -1,6 +1,6 @@
 # 🏊‍♂️ PoolPilot
 
-**PoolPilot** is an open-source smart controller for swimming pools. It monitors water temperature, manages pump schedules, and optimizes solar heating to keep your pool perfect — efficiently and automatically.
+**PoolPilot** is an open-source smart controller project for swimming pools. It monitors water temperature, manages pump schedules, and optimizes solar heating to keep your pool perfect — efficiently and automatically.
 
 ---
 
@@ -17,16 +17,17 @@
 ## ⚙️ Hardware Requirements
 - ESP32 or Raspberry Pi (recommended)
 - DS18B20 temperature sensors
+- Electric Watervalve
 - Relay module for pump/valve control
 - Optional: flow sensor, solar temperature probe
 
 ---
 
 ## 💻 Software Stack
-- Python or Arduino (depending on platform)
+- Python or Arduino
 - MQTT for messaging
 - Web interface built with Flask or Node.js
-- SQLite or InfluxDB for logging
+- SQLite and InfluxDB for logging
 
 ---
 
@@ -64,5 +65,5 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 ## 💧 About
-Created by **[Your Name]**, a pool enthusiast and tech tinkerer 🌴. The goal of PoolPilot is to make pool maintenance smarter, greener, and more enjoyable.
+Created by **[Frederic Rocha]**, a pool enthusiast and tech tinkerer 🌴. The goal of PoolPilot is to make pool maintenance smarter, greener, and more enjoyable.
 
